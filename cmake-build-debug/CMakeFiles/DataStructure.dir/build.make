@@ -69,34 +69,64 @@ CMakeFiles/DataStructure.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\2018-summer-camp\leetcode\DataStructure\main.cpp -o CMakeFiles\DataStructure.dir\main.cpp.s
 
-CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj: ../BinSearchTree/BinSearchTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\BinSearchTree\BinSearchTree.cpp.obj -c F:\2018-summer-camp\leetcode\DataStructure\BinSearchTree\BinSearchTree.cpp
+CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj: ../Tree/BinSearchTree/BinSearchTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\BinSearchTree\BinSearchTree.cpp.obj -c F:\2018-summer-camp\leetcode\DataStructure\Tree\BinSearchTree\BinSearchTree.cpp
 
-CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\2018-summer-camp\leetcode\DataStructure\BinSearchTree\BinSearchTree.cpp > CMakeFiles\DataStructure.dir\BinSearchTree\BinSearchTree.cpp.i
+CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\2018-summer-camp\leetcode\DataStructure\Tree\BinSearchTree\BinSearchTree.cpp > CMakeFiles\DataStructure.dir\Tree\BinSearchTree\BinSearchTree.cpp.i
 
-CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\2018-summer-camp\leetcode\DataStructure\BinSearchTree\BinSearchTree.cpp -o CMakeFiles\DataStructure.dir\BinSearchTree\BinSearchTree.cpp.s
+CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\2018-summer-camp\leetcode\DataStructure\Tree\BinSearchTree\BinSearchTree.cpp -o CMakeFiles\DataStructure.dir\Tree\BinSearchTree\BinSearchTree.cpp.s
+
+CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj: ../Tree/MST/MST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\MST\MST.cpp.obj -c F:\2018-summer-camp\leetcode\DataStructure\Tree\MST\MST.cpp
+
+CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\2018-summer-camp\leetcode\DataStructure\Tree\MST\MST.cpp > CMakeFiles\DataStructure.dir\Tree\MST\MST.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\2018-summer-camp\leetcode\DataStructure\Tree\MST\MST.cpp -o CMakeFiles\DataStructure.dir\Tree\MST\MST.cpp.s
+
+CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj: ../Tree/LinkedList/ReverseList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\LinkedList\ReverseList.cpp.obj -c F:\2018-summer-camp\leetcode\DataStructure\Tree\LinkedList\ReverseList.cpp
+
+CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\2018-summer-camp\leetcode\DataStructure\Tree\LinkedList\ReverseList.cpp > CMakeFiles\DataStructure.dir\Tree\LinkedList\ReverseList.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\2018-summer-camp\leetcode\DataStructure\Tree\LinkedList\ReverseList.cpp -o CMakeFiles\DataStructure.dir\Tree\LinkedList\ReverseList.cpp.s
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
-"CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj"
+"CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
 DataStructure.exe: CMakeFiles/DataStructure.dir/main.cpp.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

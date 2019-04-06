@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/2018-summer-camp/leetcode/DataStructure/main.cpp
+F:/2018-summer-camp/leetcode/DataStructure/Tree/BinSearchTree/BinSearchTree.cpp
 iostream
+-
+malloc.h
+-
+stdlib.h
 -
 

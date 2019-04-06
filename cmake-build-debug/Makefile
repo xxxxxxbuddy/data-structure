@@ -122,32 +122,86 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-BinSearchTree/BinSearchTree.obj: BinSearchTree/BinSearchTree.cpp.obj
+Tree/BinSearchTree/BinSearchTree.obj: Tree/BinSearchTree/BinSearchTree.cpp.obj
 
-.PHONY : BinSearchTree/BinSearchTree.obj
+.PHONY : Tree/BinSearchTree/BinSearchTree.obj
 
 # target to build an object file
-BinSearchTree/BinSearchTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj
-.PHONY : BinSearchTree/BinSearchTree.cpp.obj
+Tree/BinSearchTree/BinSearchTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj
+.PHONY : Tree/BinSearchTree/BinSearchTree.cpp.obj
 
-BinSearchTree/BinSearchTree.i: BinSearchTree/BinSearchTree.cpp.i
+Tree/BinSearchTree/BinSearchTree.i: Tree/BinSearchTree/BinSearchTree.cpp.i
 
-.PHONY : BinSearchTree/BinSearchTree.i
+.PHONY : Tree/BinSearchTree/BinSearchTree.i
 
 # target to preprocess a source file
-BinSearchTree/BinSearchTree.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.i
-.PHONY : BinSearchTree/BinSearchTree.cpp.i
+Tree/BinSearchTree/BinSearchTree.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.i
+.PHONY : Tree/BinSearchTree/BinSearchTree.cpp.i
 
-BinSearchTree/BinSearchTree.s: BinSearchTree/BinSearchTree.cpp.s
+Tree/BinSearchTree/BinSearchTree.s: Tree/BinSearchTree/BinSearchTree.cpp.s
 
-.PHONY : BinSearchTree/BinSearchTree.s
+.PHONY : Tree/BinSearchTree/BinSearchTree.s
 
 # target to generate assembly for a file
-BinSearchTree/BinSearchTree.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.s
-.PHONY : BinSearchTree/BinSearchTree.cpp.s
+Tree/BinSearchTree/BinSearchTree.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.s
+.PHONY : Tree/BinSearchTree/BinSearchTree.cpp.s
+
+Tree/LinkedList/ReverseList.obj: Tree/LinkedList/ReverseList.cpp.obj
+
+.PHONY : Tree/LinkedList/ReverseList.obj
+
+# target to build an object file
+Tree/LinkedList/ReverseList.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj
+.PHONY : Tree/LinkedList/ReverseList.cpp.obj
+
+Tree/LinkedList/ReverseList.i: Tree/LinkedList/ReverseList.cpp.i
+
+.PHONY : Tree/LinkedList/ReverseList.i
+
+# target to preprocess a source file
+Tree/LinkedList/ReverseList.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.i
+.PHONY : Tree/LinkedList/ReverseList.cpp.i
+
+Tree/LinkedList/ReverseList.s: Tree/LinkedList/ReverseList.cpp.s
+
+.PHONY : Tree/LinkedList/ReverseList.s
+
+# target to generate assembly for a file
+Tree/LinkedList/ReverseList.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.s
+.PHONY : Tree/LinkedList/ReverseList.cpp.s
+
+Tree/MST/MST.obj: Tree/MST/MST.cpp.obj
+
+.PHONY : Tree/MST/MST.obj
+
+# target to build an object file
+Tree/MST/MST.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj
+.PHONY : Tree/MST/MST.cpp.obj
+
+Tree/MST/MST.i: Tree/MST/MST.cpp.i
+
+.PHONY : Tree/MST/MST.i
+
+# target to preprocess a source file
+Tree/MST/MST.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.i
+.PHONY : Tree/MST/MST.cpp.i
+
+Tree/MST/MST.s: Tree/MST/MST.cpp.s
+
+.PHONY : Tree/MST/MST.s
+
+# target to generate assembly for a file
+Tree/MST/MST.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.s
+.PHONY : Tree/MST/MST.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -185,9 +239,15 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BinSearchTree/BinSearchTree.obj
-	@echo ... BinSearchTree/BinSearchTree.i
-	@echo ... BinSearchTree/BinSearchTree.s
+	@echo ... Tree/BinSearchTree/BinSearchTree.obj
+	@echo ... Tree/BinSearchTree/BinSearchTree.i
+	@echo ... Tree/BinSearchTree/BinSearchTree.s
+	@echo ... Tree/LinkedList/ReverseList.obj
+	@echo ... Tree/LinkedList/ReverseList.i
+	@echo ... Tree/LinkedList/ReverseList.s
+	@echo ... Tree/MST/MST.obj
+	@echo ... Tree/MST/MST.i
+	@echo ... Tree/MST/MST.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

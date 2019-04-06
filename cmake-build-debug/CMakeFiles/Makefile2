@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug
 CMakeFiles/DataStructure.dir/all:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/depend
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target DataStructure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target DataStructure"
 .PHONY : CMakeFiles/DataStructure.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/DataStructure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DataStructure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/DataStructure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\2018-summer-camp\leetcode\DataStructure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DataStructure.dir/rule

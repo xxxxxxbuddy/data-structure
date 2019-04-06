@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/2018-summer-camp/leetcode/DataStructure/BinSearchTree/BinSearchTree.cpp" "F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/BinSearchTree/BinSearchTree.cpp.obj"
+  "F:/2018-summer-camp/leetcode/DataStructure/Tree/BinSearchTree/BinSearchTree.cpp" "F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/BinSearchTree/BinSearchTree.cpp.obj"
+  "F:/2018-summer-camp/leetcode/DataStructure/Tree/LinkedList/ReverseList.cpp" "F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/LinkedList/ReverseList.cpp.obj"
+  "F:/2018-summer-camp/leetcode/DataStructure/Tree/MST/MST.cpp" "F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/MST/MST.cpp.obj"
   "F:/2018-summer-camp/leetcode/DataStructure/main.cpp" "F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

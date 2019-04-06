@@ -9,8 +9,8 @@
 typedef struct TreeNode *BinTree;
 typedef TreeNode Position;
 struct TreeNode{
-    Bintree Left;
-    Bintree Right;
+    BinTree Left;
+    BinTree Right;
     int DATA;
     int flag;
 
