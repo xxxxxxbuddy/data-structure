@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe" -G "CodeBlocks - MinGW Makefiles" F:\2018-summer-camp\leetcode\DataStructure
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/2018-summer-camp/leetcode/DataStructure/cmake-build-debug
