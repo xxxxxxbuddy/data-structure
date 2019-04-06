@@ -23,7 +23,7 @@ struct TreeNode{
 };
 
 /**
- * 查找（递归）
+ * 1.1 查找（递归）
  *
  * @param {int} x
  * @param {BinTree} BST
@@ -44,7 +44,7 @@ struct TreeNode{
 /*********  此种方法效率取决于树的高度，不稳定   ************/
 
 /**
- * 循环迭代查找
+ * 1.2 循环迭代查找
  *
  * @param {int}
  * @param {TreeNode}
@@ -65,18 +65,10 @@ struct TreeNode{
      return NULL;
 }
 
-/**
- * 比较二叉搜索树是否完全相同（插入序列不同）
- *
- * @param {int} 树的节点数
- * @param {int} 需要比较的额外组数
- *
- * @return
- */
 
 
 /**
- * NewNode
+ * 2.1 NewNode
  *
  * @param {int}
  * @return {BinTree}
@@ -91,7 +83,7 @@ struct TreeNode{
 }
 
 /**
- * Insert
+ * 2.2 Insert
  *
  * @param {BinTree}
  * @param {int{
@@ -111,7 +103,7 @@ struct TreeNode{
 }
 
 /**
- * 建树
+ * 2.3 建树
  *
  * @param ｛N｝ nodes number
  * @return
@@ -129,40 +121,80 @@ struct TreeNode{
      }
      return T;
 }
-
 /**
- * Judge
+ * 2.4 check
  *
  * @param {BinTree}
  * @param {int}
- * @return {bool}
  */
- bool Judge(BinTree T, int N)
+ int check(BinTree T, int V)
 {
-     int i,V;
-     for(i=0;i<N;i++){
-         cin>>V;
-         T->flag = 1;
-         while(T->flag == 1){
-             if(T->DATA > V){
-                 T->flag = 1;
-                 T = T->Left;
-             }else if(T->DATA < V){
-                 T->flag = 1;
-                 T = T->Right;
-             }else{
-                 return true;
-             }
-         }
-         return false;
+     if(T->flag){
+         if(T->DATA > V)
+             return check(T->Left, V);
+         else if(T->DATA < V)
+             return check(T->Right, V);
+         else
+             return 0;
+     }else{
+         if(T->DATA == V)
+             return 1;
+         else
+             return 0;
      }
 }
 
+/**
+ * 2.5 Judge
+ *
+ * @param {BinTree}
+ * @param {int}
+ * @return {int}
+ */
+ int Judge(BinTree T, int N)
+{
+     int i,V,flag=0;
+     cin>>V;
+     if(V != T->DATA) flag = 1;
+     else   T->flag = 1;
+     for(i=1;i<N; i++) {
+         cin >> V;
+         if (!flag && !check(T, V)) flag = 1;
+     }
+    if(flag) return 0;
+    return 1;
+}
+
+/**
+ * 2.6 Reset
+ *
+ * @param {BinTree}
+ * @return
+ */
+ void ResetTree(BinTree T)
+{
+     if(T->Left) ResetTree(T->Left);
+     if(T->Right) ResetTree(T->Right);
+     T->flag = 0;
+}
+
+/**
+ * 2.7 free
+ *
+ * @param {BinTree}
+ * @return
+ */
+ void FreeTree(BinTree T)
+{
+     if(T->Left) FreeTree(T->Left);
+     if(T->Right) FreeTree(T->Right);
+     free(T);
+}
 
 int main()
 {
     int N, L, i;
-    TreeNode T;
+    BinTree T;
 
     cin>>N;
 

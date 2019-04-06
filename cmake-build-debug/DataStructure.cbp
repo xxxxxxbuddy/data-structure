@@ -83,9 +83,6 @@
 		<Unit filename="F:/2018-summer-camp/leetcode/DataStructure/BinSearchTree/BinSearchTree.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="F:/2018-summer-camp/leetcode/DataStructure/BinSearchTree/BinSearchTree.h">
-			<Option target="DataStructure"/>
-		</Unit>
 		<Unit filename="F:/2018-summer-camp/leetcode/DataStructure/main.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
